@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Library.BL/Library.BL.csproj" Id="0104b34f-db13-4913-88de-07cb8901c8ce" />
+  <Project Path="Library.Console/Library.Console.csproj" Id="12c169ef-82fd-4247-8afc-f359eff5581c" />
+  <Project Path="Library.DAL/Library.DAL.csproj" Id="15847e01-417f-4733-870a-ba4156f1ecb4" />
+  <Project Path="Library.Forms/Library.Forms.csproj" Id="00deff2a-bfba-4a36-8ebf-a8e6186da46b" />
+  <Project Path="Library.Modules/Library.Models.csproj" Id="50a4bc17-15b5-4bd1-9a07-980d6354f145" />
+</Solution>

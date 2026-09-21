@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Library.Console/1.0.0": {
+        "dependencies": {
+          "Library.BL": "1.0.0",
+          "Library.Models": "1.0.0"
+        },
+        "runtime": {
+          "Library.Console.dll": {}
+        }
+      },
+      "Library.BL/1.0.0": {
+        "dependencies": {
+          "Library.DAL": "1.0.0",
+          "Library.Models": "1.0.0"
+        },
+        "runtime": {
+          "Library.BL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Library.DAL/1.0.0": {
+        "dependencies": {
+          "Library.Models": "1.0.0"
+        },
+        "runtime": {
+          "Library.DAL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Library.Models/1.0.0": {
+        "runtime": {
+          "Library.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Library.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

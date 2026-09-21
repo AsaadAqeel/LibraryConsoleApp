@@ -1,0 +1,78 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Library.Models;
+using Library.DAL;
+
+
+
+namespace Library.BL
+{
+    internal partial class LibrarySystem
+    {
+        // Method to add a new book to the library
+        public void Addbook(string title, string author)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(title) || string.IsNullOrWhiteSpace(author))
+                {
+                    throw new ArgumentException("Title and Author cannot be empty.");
+                }
+                // check if the book already exists in the library
+                var existingBook = _repository.Books.FirstOrDefault(b => b.Title.Equals(title, StringComparison.OrdinalIgnoreCase) && b.Author.Equals(author, StringComparison.OrdinalIgnoreCase));
+                if (existingBook != null)
+                {
+                    throw new InvalidOperationException("A book with the same title and author already exists in the library.");
+                   
+                }
+                // Create a new book and add it to the list
+                var newBook = new Book(_repository.NextBookId.ToString(), title, author, true, DateTime.Now);
+                _repository.Books.Add(newBook);
+                _repository.NextBookId++;
+
+                Notification?.Invoke($"Book '{title}' by {author} added successfully with ID: {_repository.NextBookId}.");
+
+                Console.WriteLine($"Book added successfully!");
+
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+
+
+        }
+
+        //Method to list all available books using LINQ
+        public void SearchBooks(string searchTerm)
+        {
+            if (string.IsNullOrWhiteSpace(searchTerm))
+            {
+                Console.WriteLine("Please Enter a search term");
+                return;
+            }
+
+            var foundBooks = _repository.Books.Where(b =>
+                b.Title.ToLower().Contains(searchTerm.ToLower()) ||
+                b.Author.ToLower().Contains(searchTerm.ToLower())
+            ).ToList();
+            if (foundBooks.Count == 0)
+            {
+                Console.WriteLine("No books found matching your search.");
+                return;
+            }
+            Console.WriteLine($"\nfound {foundBooks.Count} Book(s):");
+            Console.WriteLine(new string('_', 50));
+
+            //use foreach to display results
+            foreach (var book in foundBooks)
+            {
+                book.DisplayInfo();
+                Console.WriteLine();
+            }
+        }
+
+
+    }
+}

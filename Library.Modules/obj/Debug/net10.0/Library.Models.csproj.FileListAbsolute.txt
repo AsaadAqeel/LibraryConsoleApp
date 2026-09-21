@@ -1,0 +1,12 @@
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\bin\Debug\net10.0\Library.Models.deps.json
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\bin\Debug\net10.0\Library.Models.dll
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\bin\Debug\net10.0\Library.Models.pdb
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\obj\Debug\net10.0\Library.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\obj\Debug\net10.0\Library.Models.AssemblyInfoInputs.cache
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\obj\Debug\net10.0\Library.Models.AssemblyInfo.cs
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\obj\Debug\net10.0\Library.Models.csproj.CoreCompileInputs.cache
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\obj\Debug\net10.0\Library.Models.dll
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\obj\Debug\net10.0\refint\Library.Models.dll
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\obj\Debug\net10.0\Library.Models.pdb
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\obj\Debug\net10.0\ref\Library.Models.dll
+C:\Users\Asdak\source\repos\LibraryConsoleApplication1\Library.Modules\obj\Debug\net10.0\Library..95D8261F.Up2Date
