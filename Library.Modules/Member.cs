@@ -27,7 +27,7 @@
             Console.WriteLine($"BorrowedBooks: {BorrowedBookIds.Count}");
         }
 
-        // record of tracking book borrowing 
+
     }
             
 
