@@ -1,5 +1,0 @@
-C:\Users\Asdak\source\repos\LibraryConsoleApplication1\LibraryConsoleApplication1\obj\Debug\net10.0\LibraryConsoleApplication1.csproj.AssemblyReference.cache
-C:\Users\Asdak\source\repos\LibraryConsoleApplication1\LibraryConsoleApplication1\obj\Debug\net10.0\LibraryConsoleApplication1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Asdak\source\repos\LibraryConsoleApplication1\LibraryConsoleApplication1\obj\Debug\net10.0\LibraryConsoleApplication1.AssemblyInfoInputs.cache
-C:\Users\Asdak\source\repos\LibraryConsoleApplication1\LibraryConsoleApplication1\obj\Debug\net10.0\LibraryConsoleApplication1.AssemblyInfo.cs
-C:\Users\Asdak\source\repos\LibraryConsoleApplication1\LibraryConsoleApplication1\obj\Debug\net10.0\LibraryConsoleApplication1.csproj.CoreCompileInputs.cache
