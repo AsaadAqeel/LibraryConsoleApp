@@ -45,13 +45,9 @@ namespace Library.BL
                 book.IsAvailable = false;
                 member.BorrowedBookIds.Add(bookId);
 
-
-                _repository.SaveChanges();
-
                 Notification?.Invoke($"{member.Name} borrowed '{book.Title}'");
                 Console.WriteLine($"Book {book.Title} borrowed successfully!");
             }
-
             catch (Exception ex)
             {
                 Console.WriteLine($"Error borrowing book: {ex.Message}");
@@ -93,13 +89,8 @@ namespace Library.BL
                 book.IsAvailable = true;
                 member.BorrowedBookIds.Remove(bookId);
 
-                _repository.SaveChanges();
-
                 Notification?.Invoke($"{member.Name} Returned '{book.Title}'");
                 Console.WriteLine($"Book {book.Title} Returned successfully!");
-
-
-
             }
             catch (Exception ex)
             {

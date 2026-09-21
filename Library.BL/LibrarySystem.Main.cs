@@ -1,7 +1,7 @@
 ﻿using Library.Models;
 using Library.DAL;
 
-namespace Library.BL
+namespace Library.Business
 {
 
 
@@ -17,7 +17,17 @@ namespace Library.BL
                 throw new ArgumentException("Invalid email adress.");
             }
         }
-        
+        public LibrarySystem()
+        {
+            _repository.Books = new List<Book>();
+            _repository.Members = new List<Member>();
+            _repository.BorrowRecords = new List<BorrowRecord>();
+            _repository.NextBookId = 1;
+            _repository.NextMemberId = 1;
+            _repository.NextRecordId = 1;
+        }
+
+       
        
     }
 

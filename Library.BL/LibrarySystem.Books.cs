@@ -10,7 +10,8 @@ namespace Library.BL
 {
     public partial class LibrarySystem
     {
-    
+        public event Action<string>? Notification;
+        private readonly LibraryRepository _repository = new LibraryRepository();
         // Method to add a new book to the library
         public void Addbook(string title, string author)
         {
@@ -32,13 +33,10 @@ namespace Library.BL
                 _repository.Books.Add(newBook);
                 _repository.NextBookId++;
 
-                _repository.SaveChanges();
                 Notification?.Invoke($"Book '{title}' by {author} added successfully with ID: {_repository.NextBookId}.");
 
                 Console.WriteLine($"Book added successfully!");
 
-                Notification?.Invoke($"Book '{title}' by {author} added successfully with ID: {_repository.NextBookId}.");
-                Console.WriteLine($"Book added successfully!");
             }
             catch (ArgumentException ex)
             {
@@ -86,7 +84,7 @@ namespace Library.BL
             Console.WriteLine($"Total Members: {_repository.Members.Count}");
             Console.WriteLine($"Active Borrows: {_repository.BorrowRecords.Count(br => !br.IsReturned)}");
 
-            if (_repository.Books.Count > 0)
+            if (_repository.Books.Count == 0)
             {
                 var PopularAuthor = _repository.Books.GroupBy(b => b.Author).OrderByDescending(g => g.Count()).First();
 

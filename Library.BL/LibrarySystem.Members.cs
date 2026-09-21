@@ -26,12 +26,11 @@ namespace Library.BL
                 var newMember = new Member(_repository.NextMemberId++, name, email, DateTime.Now);
                 _repository.Members.Add(newMember);
 
-                _repository.SaveChanges();
-
                 Notification?.Invoke($"Member '{name}' added successfully with ID: {newMember.MemberId}.");
-                Console.WriteLine($"{name} added successfully!");
+                Console.WriteLine($"{name} addedsuccessfully!");
+
             }
-            catch (Exception ex)
+            catch (ArgumentException ex)
             {
                 Console.WriteLine($"Error: {ex.Message}");
             }
