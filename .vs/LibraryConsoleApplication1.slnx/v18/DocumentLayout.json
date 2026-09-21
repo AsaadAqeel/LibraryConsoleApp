@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50A4BC17-15B5-4BD1-9A07-980D6354F145}|Library.Modules\\Library.Models.csproj|c:\\users\\asdak\\source\\repos\\libraryconsoleapplication1\\libraryconsoleapp\\library.modules\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A4BC17-15B5-4BD1-9A07-980D6354F145}|Library.Modules\\Library.Models.csproj|solutionrelative:library.modules\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15847E01-417F-4733-870A-BA4156F1ECB4}|Library.DAL\\Library.DAL.csproj|c:\\users\\asdak\\source\\repos\\libraryconsoleapplication1\\libraryconsoleapp\\library.dal\\library.dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15847E01-417F-4733-870A-BA4156F1ECB4}|Library.DAL\\Library.DAL.csproj|solutionrelative:library.dal\\library.dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A4BC17-15B5-4BD1-9A07-980D6354F145}|Library.Modules\\Library.Models.csproj|c:\\users\\asdak\\source\\repos\\libraryconsoleapplication1\\libraryconsoleapp\\library.modules\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A4BC17-15B5-4BD1-9A07-980D6354F145}|Library.Modules\\Library.Models.csproj|solutionrelative:library.modules\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A4BC17-15B5-4BD1-9A07-980D6354F145}|Library.Modules\\Library.Models.csproj|c:\\users\\asdak\\source\\repos\\libraryconsoleapplication1\\libraryconsoleapp\\library.modules\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A4BC17-15B5-4BD1-9A07-980D6354F145}|Library.Modules\\Library.Models.csproj|solutionrelative:library.modules\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12C169EF-82FD-4247-8AFC-F359EFF5581C}|Library.Console\\Library.Console.csproj|c:\\users\\asdak\\source\\repos\\libraryconsoleapplication1\\libraryconsoleapp\\library.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12C169EF-82FD-4247-8AFC-F359EFF5581C}|Library.Console\\Library.Console.csproj|solutionrelative:library.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{0104B34F-DB13-4913-88DE-07CB8901C8CE}|Library.BL\\Library.BL.csproj|solutionrelative:library.bl\\librarysystem.transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15847E01-417F-4733-870A-BA4156F1ECB4}|Library.DAL\\Library.DAL.csproj|c:\\users\\asdak\\source\\repos\\libraryconsoleapplication1\\libraryconsoleapp\\library.dal\\library.dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15847E01-417F-4733-870A-BA4156F1ECB4}|Library.DAL\\Library.DAL.csproj|solutionrelative:library.dal\\library.dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0104B34F-DB13-4913-88DE-07CB8901C8CE}|Library.BL\\Library.BL.csproj|c:\\users\\asdak\\source\\repos\\libraryconsoleapplication1\\libraryconsoleapp\\library.bl\\librarysystem.books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0104B34F-DB13-4913-88DE-07CB8901C8CE}|Library.BL\\Library.BL.csproj|solutionrelative:library.bl\\librarysystem.books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0104B34F-DB13-4913-88DE-07CB8901C8CE}|Library.BL\\Library.BL.csproj|c:\\users\\asdak\\source\\repos\\libraryconsoleapplication1\\libraryconsoleapp\\library.bl\\librarysystem.main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0104B34F-DB13-4913-88DE-07CB8901C8CE}|Library.BL\\Library.BL.csproj|solutionrelative:library.bl\\librarysystem.main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50A4BC17-15B5-4BD1-9A07-980D6354F145}|Library.Modules\\Library.Models.csproj|c:\\users\\asdak\\source\\repos\\libraryconsoleapplication1\\libraryconsoleapp\\library.modules\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50A4BC17-15B5-4BD1-9A07-980D6354F145}|Library.Modules\\Library.Models.csproj|solutionrelative:library.modules\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50A4BC17-15B5-4BD1-9A07-980D6354F145}|Library.Modules\\Library.Models.csproj|c:\\users\\asdak\\source\\repos\\libraryconsoleapplication1\\libraryconsoleapp\\library.modules\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50A4BC17-15B5-4BD1-9A07-980D6354F145}|Library.Modules\\Library.Models.csproj|solutionrelative:library.modules\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50A4BC17-15B5-4BD1-9A07-980D6354F145}|Library.Modules\\Library.Models.csproj|c:\\users\\asdak\\source\\repos\\libraryconsoleapplication1\\libraryconsoleapp\\library.modules\\library.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -62,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Console\\Program.cs",
               "RelativeDocumentMoniker": "Library.Console\\Program.cs",
@@ -80,19 +84,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Member.cs",
+              "RelativeDocumentMoniker": "Library.Modules\\Member.cs",
+              "ToolTip": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Member.cs",
+              "RelativeToolTip": "Library.Modules\\Member.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T17:41:10.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Library.DAL.cs",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.DAL\\Library.DAL.cs",
               "RelativeDocumentMoniker": "Library.DAL\\Library.DAL.cs",
               "ToolTip": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.DAL\\Library.DAL.cs",
               "RelativeToolTip": "Library.DAL\\Library.DAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T12:39:10.599Z"
+              "WhenOpened": "2026-09-21T12:39:10.599Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LibrarySystem.Books.cs",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\LibrarySystem.Books.cs",
               "RelativeDocumentMoniker": "Library.BL\\LibrarySystem.Books.cs",
@@ -104,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "LibrarySystem.Transactions.cs",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\LibrarySystem.Transactions.cs",
               "RelativeDocumentMoniker": "Library.BL\\LibrarySystem.Transactions.cs",
@@ -116,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "LibrarySystem.Members.cs",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\LibrarySystem.Members.cs",
               "RelativeDocumentMoniker": "Library.BL\\LibrarySystem.Members.cs",
@@ -128,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "LibrarySystem.Main.cs",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\LibrarySystem.Main.cs",
               "RelativeDocumentMoniker": "Library.BL\\LibrarySystem.Main.cs",
@@ -140,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Book.cs",
               "RelativeDocumentMoniker": "Library.Modules\\Book.cs",
@@ -148,11 +166,12 @@
               "RelativeToolTip": "Library.Modules\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T21:25:30.127Z"
+              "WhenOpened": "2026-09-20T21:25:30.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "BorrowRecord.cs",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\BorrowRecord.cs",
               "RelativeDocumentMoniker": "Library.Modules\\BorrowRecord.cs",
@@ -160,11 +179,12 @@
               "RelativeToolTip": "Library.Modules\\BorrowRecord.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T21:25:42.464Z"
+              "WhenOpened": "2026-09-20T21:25:42.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Library.DAL.csproj",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.DAL\\Library.DAL.csproj",
               "RelativeDocumentMoniker": "Library.DAL\\Library.DAL.csproj",
@@ -176,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Library.Models.csproj",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj",
               "RelativeDocumentMoniker": "Library.Modules\\Library.Models.csproj",
@@ -188,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Forms\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Library.Forms\\Form1.Designer.cs",
@@ -200,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Library.Console.csproj",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Console\\Library.Console.csproj",
               "RelativeDocumentMoniker": "Library.Console\\Library.Console.csproj",
@@ -212,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Forms\\Form1.cs",
               "RelativeDocumentMoniker": "Library.Forms\\Form1.cs",
