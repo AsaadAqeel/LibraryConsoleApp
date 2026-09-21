@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Forms\\Library.Forms.csproj",
+      "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Forms\\Library.Forms.csproj",
       "projectName": "Library.Forms",
-      "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Forms\\Library.Forms.csproj",
+      "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Forms\\Library.Forms.csproj",
       "packagesPath": "C:\\Users\\Asdak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Forms\\obj\\",
+      "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Forms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asdak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,8 +54,8 @@
           "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "projectReferences": {
-            "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj": {
-              "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj"
+            "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj": {
+              "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj"
             }
           }
         }

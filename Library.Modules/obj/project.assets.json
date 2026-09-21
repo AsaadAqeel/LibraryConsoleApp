@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj",
       "projectName": "Library.Models",
-      "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj",
+      "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj",
       "packagesPath": "C:\\Users\\Asdak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\obj\\",
+      "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asdak\\AppData\\Roaming\\NuGet\\NuGet.Config",

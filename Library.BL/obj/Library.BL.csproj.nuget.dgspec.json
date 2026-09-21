@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.BL\\Library.BL.csproj": {}
+    "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\Library.BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.BL\\Library.BL.csproj": {
+    "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\Library.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.BL\\Library.BL.csproj",
+        "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\Library.BL.csproj",
         "projectName": "Library.BL",
-        "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.BL\\Library.BL.csproj",
+        "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\Library.BL.csproj",
         "packagesPath": "C:\\Users\\Asdak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.BL\\obj\\",
+        "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asdak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.DAL\\Library.DAL.csproj": {
-                "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.DAL\\Library.DAL.csproj"
+              "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.DAL\\Library.DAL.csproj": {
+                "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.DAL\\Library.DAL.csproj"
               },
-              "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj": {
-                "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj"
+              "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj": {
+                "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj"
               }
             }
           }
@@ -348,14 +348,14 @@
         }
       }
     },
-    "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.DAL\\Library.DAL.csproj": {
+    "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.DAL\\Library.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.DAL\\Library.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.DAL\\Library.DAL.csproj",
         "projectName": "Library.DAL",
-        "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.DAL\\Library.DAL.csproj",
+        "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.DAL\\Library.DAL.csproj",
         "packagesPath": "C:\\Users\\Asdak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asdak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -373,8 +373,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj": {
-                "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj"
+              "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj": {
+                "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj"
               }
             }
           }
@@ -689,14 +689,14 @@
         }
       }
     },
-    "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj": {
+    "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj",
         "projectName": "Library.Models",
-        "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj",
+        "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj",
         "packagesPath": "C:\\Users\\Asdak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\obj\\",
+        "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asdak\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -19,7 +19,7 @@ namespace Library.CMD
 
 
             SetupMenuActions();
-            LoadSampleData();
+            
             RunMainLoop();
 
         }
@@ -100,6 +100,8 @@ namespace Library.CMD
             Library.Addbook(title, author);
         }
 
+
+
         private static void BorrowBookMenu()
         {
             Console.WriteLine("\n--- Borrow Book ---");
@@ -124,19 +126,7 @@ namespace Library.CMD
             }
         }
 
-        private static void LoadSampleData()
-        {
-            Library.Addbook("The Great Gatsby", "F. Scott Fitzgerald");
-            Library.Addbook("To Kill a Mockingbird", "Harper Lee");
-            Library.Addbook("1984", "George Orwell");
-
-            Library.AddMember("John Doe", "john@email.com");
-            Library.AddMember("Jane Smith", "jane@email.com");
-
-            Console.WriteLine("Sample data loaded!");
-
-
-        }
+        
         
        private static void AddMemberMenu()
         {

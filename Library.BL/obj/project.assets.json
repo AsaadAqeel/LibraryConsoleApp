@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.BL\\Library.BL.csproj",
+      "projectUniqueName": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\Library.BL.csproj",
       "projectName": "Library.BL",
-      "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.BL\\Library.BL.csproj",
+      "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\Library.BL.csproj",
       "packagesPath": "C:\\Users\\Asdak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.BL\\obj\\",
+      "outputPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asdak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,11 +73,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.DAL\\Library.DAL.csproj": {
-              "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.DAL\\Library.DAL.csproj"
+            "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.DAL\\Library.DAL.csproj": {
+              "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.DAL\\Library.DAL.csproj"
             },
-            "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj": {
-              "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\Library.Modules\\Library.Models.csproj"
+            "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj": {
+              "projectPath": "C:\\Users\\Asdak\\source\\repos\\LibraryConsoleApplication1\\LibraryConsoleApp\\Library.Modules\\Library.Models.csproj"
             }
           }
         }
