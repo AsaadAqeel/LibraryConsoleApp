@@ -153,17 +153,17 @@ namespace Library.CMD
         {
             Console.WriteLine("\n--- Return Book ---");
 
-            Console.Write("Enter book ID: ");
-            if (int.TryParse(Console.ReadLine(), out int bookId))
+            Console.Write("Enter member ID: ");
+            if (int.TryParse(Console.ReadLine(), out int memberId))
             {
 
-                Console.Write("Enter member ID: ");
-                if (int.TryParse(Console.ReadLine(), out int memberId))
+                Console.Write("Enter book ID: ");
+                if (int.TryParse(Console.ReadLine(), out int bookId))
                 {
                     try
                     {
 
-                        Library.ReturnBook(bookId, memberId);
+                        Library.ReturnBook(memberId, bookId);
 
                         Console.WriteLine("✅ Book returned successfully!");
                     }
@@ -174,12 +174,12 @@ namespace Library.CMD
                 }
                 else
                 {
-                    Console.WriteLine("❌ Invalid Member ID format.");
+                    Console.WriteLine("❌ Invalid Book ID format.");
                 }
             }
             else
             {
-                Console.WriteLine("❌ Invalid Book ID format.");
+                Console.WriteLine("❌ Invalid Member ID format.");
             }
         }
 

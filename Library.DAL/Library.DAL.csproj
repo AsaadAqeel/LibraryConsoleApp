@@ -10,4 +10,6 @@
     <ProjectReference Include="..\Library.Modules\Library.Models.csproj" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
 </Project>

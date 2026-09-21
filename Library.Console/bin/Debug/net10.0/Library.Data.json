@@ -1,0 +1,42 @@
+{
+  "books": [
+    {
+      "BookId": 1,
+      "Title": "ss",
+      "Author": "dd",
+      "IsAvailable": false,
+      "DateAdded": "2026-09-22T00:25:39.9510469+03:00"
+    },
+    {
+      "BookId": 2,
+      "Title": "sjagoh",
+      "Author": "gsoigdh",
+      "IsAvailable": true,
+      "DateAdded": "2026-09-22T00:25:57.0191695+03:00"
+    }
+  ],
+  "Members": [
+    {
+      "MemberId": 1,
+      "Name": "Asaad",
+      "Email": "Assdhjaghdigh",
+      "DateJoined": "2026-09-22T00:26:36.6824165+03:00",
+      "BorrowedBookIds": [
+        1
+      ]
+    }
+  ],
+  "BorrowRecord": [
+    {
+      "RecordId": 1,
+      "bookId": 1,
+      "memberId": 1,
+      "BorrowDate": "2026-09-22T00:27:08.0664118+03:00",
+      "ReturnDate": null,
+      "IsReturned": false
+    }
+  ],
+  "NextBookId": 3,
+  "NextMemberId": 2,
+  "NextRecordId": 2
+}
