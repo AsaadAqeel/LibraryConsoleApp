@@ -37,7 +37,13 @@ namespace Library.CMD
                 ["7"] = () => Library.ShowBorrowedBooks(),
                 ["8"] = () => Library.ShowMemberActivity(),
                 ["9"] = () => Library.ShowLibraryStatistics(),
-                ["0"] = () => Environment.Exit(0)
+                ["0"] = () =>
+                {
+                    Library.SaveChanges();
+                    Console.WriteLine("All data saved successfully. See you later :)");
+                    Environment.Exit(0);
+                }
+              
             };
         }
 
@@ -131,12 +137,21 @@ namespace Library.CMD
        private static void AddMemberMenu()
         {
             Console.WriteLine("\n--- Add New Member ---");
-
             Console.Write("Enter member name: ");
             string name = Console.ReadLine();
-            Console.Write("Enter member email: ");
-            string email = Console.ReadLine();
 
+            string email;
+            while (true)
+            {
+                Console.Write("Enter member email: ");
+                email = Console.ReadLine();
+                if (LibrarySystem.IsValidEmail(email))
+                {
+                    break;
+                }
+                Console.WriteLine("❌ Invalid email format! Please try again (e.g., name@domain.com).");
+            }
+           
             try
             {
                 Library.AddMember(name, email);
@@ -154,16 +169,16 @@ namespace Library.CMD
             Console.WriteLine("\n--- Return Book ---");
 
             Console.Write("Enter book ID: ");
-            if (int.TryParse(Console.ReadLine(), out int bookId))
+            if (int.TryParse(Console.ReadLine(), out int memberId))
             {
 
                 Console.Write("Enter member ID: ");
-                if (int.TryParse(Console.ReadLine(), out int memberId))
+                if (int.TryParse(Console.ReadLine(), out int bookId))
                 {
                     try
                     {
 
-                        Library.ReturnBook(bookId, memberId);
+                        Library.ReturnBook(memberId, bookId);
 
                         Console.WriteLine("✅ Book returned successfully!");
                     }
@@ -174,12 +189,12 @@ namespace Library.CMD
                 }
                 else
                 {
-                    Console.WriteLine("❌ Invalid Member ID format.");
+                    Console.WriteLine("❌ Invalid Book ID format.");
                 }
             }
             else
             {
-                Console.WriteLine("❌ Invalid Book ID format.");
+                Console.WriteLine("❌ Invalid Member ID format.");
             }
         }
 

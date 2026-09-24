@@ -3,11 +3,21 @@ using System.Collections.Generic;
 using System.Text;
 using Library.Models;
 using Library.DAL;
+using System.Text.RegularExpressions;
 
 namespace Library.BL
 {
     public partial class LibrarySystem
     {
+        public static bool IsValidEmail(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+                return false;
+
+            string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+            return Regex.IsMatch(email, pattern, RegexOptions.IgnoreCase);
+        }
+
         // Method to add a new member to the library
         public void AddMember(string name, string email)
         {
@@ -22,6 +32,10 @@ namespace Library.BL
                 {
                     throw new InvalidOperationException("A member with the same email already exists in the library.");
                 }
+                if (!IsValidEmail(email))
+                {
+                    throw new ArgumentException("Invalid email format! Please provide a valid email address.");
+                }
                 // Create a new member and add it to the list
                 var newMember = new Member(_repository.NextMemberId++, name, email, DateTime.Now);
                 _repository.Members.Add(newMember);
@@ -30,10 +44,11 @@ namespace Library.BL
                 Console.WriteLine($"{name} addedsuccessfully!");
 
             }
-            catch (ArgumentException ex)
+            catch (Exception ex)
             {
                 Console.WriteLine($"Error: {ex.Message}");
             }
+            SaveChanges();
 
         }
 
@@ -57,6 +72,9 @@ namespace Library.BL
                 Console.WriteLine($"{member.Name,-20} {member.Email,-25} {member.BorrowedBookIds.Count,-15}");
 
             }
+            SaveChanges();
         }
+
+        
     }
 }

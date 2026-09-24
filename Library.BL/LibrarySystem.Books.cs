@@ -10,8 +10,6 @@ namespace Library.BL
 {
     public partial class LibrarySystem
     {
-        public event Action<string>? Notification;
-        private readonly LibraryRepository _repository = new LibraryRepository();
         // Method to add a new book to the library
         public void Addbook(string title, string author)
         {
@@ -42,7 +40,7 @@ namespace Library.BL
             {
                 Console.WriteLine($"Error: {ex.Message}");
             }
-
+            SaveChanges();
 
         }
 
@@ -74,7 +72,8 @@ namespace Library.BL
                     book.DisplayInfo();
                     Console.WriteLine();
                 }
-            }
+            SaveChanges();
+        }
         public void ShowLibraryStatistics()
         {
             Console.WriteLine("\n--- Library Statistics ---");
@@ -90,6 +89,7 @@ namespace Library.BL
 
                 Console.WriteLine($"Most Popular Author: {PopularAuthor.Key} ({PopularAuthor.Count()} books)");
             }
+            SaveChanges();
         }
     }
 

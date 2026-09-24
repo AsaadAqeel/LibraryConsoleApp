@@ -1,0 +1,4 @@
+RecordId,BookId,memberId,BorrowDate,ReturnDate,IsReturned
+1,1,1,9/24/2026 8:21:45 PM,9/24/2026 8:21:52 PM,False
+2,2,1,9/24/2026 8:26:19 PM,,False
+3,1,1,9/24/2026 8:26:46 PM,,False

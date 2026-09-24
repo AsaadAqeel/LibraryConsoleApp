@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Library.DAL;
 using Library.Models;
-using Library.DAL;
+using System;
+using System.Collections.Generic;
+using System.Net;
+using System.Text;
 
 namespace Library.BL
 {
     public partial class LibrarySystem
     {
+
         //Method to borrow a book
         public void Borrowbook(int memberId, int bookId)
         {
@@ -52,6 +54,7 @@ namespace Library.BL
             {
                 Console.WriteLine($"Error borrowing book: {ex.Message}");
             }
+            SaveChanges();
         }
 
         //Method to return a book
@@ -61,6 +64,7 @@ namespace Library.BL
             {
                 var member = _repository.Members.FirstOrDefault(m => m.MemberId == memberId);
                 var book = _repository.Books.FirstOrDefault(b => b.BookId == bookId);
+                var borrowRecord = _repository.BorrowRecords.FirstOrDefault(r => r.BookId == bookId && r.MemberId == memberId && !r.IsReturned);
 
                 if (member == null || book == null)
                 {
@@ -72,17 +76,13 @@ namespace Library.BL
                     Console.WriteLine("This member did not borrow this book!");
                     return;
                 }
-                //find borrow record using LINQ
-                var borrowRecord = _repository.BorrowRecords.FirstOrDefault(br =>
-                br.memberId == memberId &&
-             br.bookId == bookId &&
-             !br.IsReturned);
-
+               
                 if (borrowRecord == null)
                 {
                     Console.WriteLine("No Active borrow record found!");
                     return;
                 }
+
 
                 //update records
                 borrowRecord.ReturnDate = DateTime.Now;
@@ -96,7 +96,7 @@ namespace Library.BL
             {
                 Console.WriteLine($"Error Returning book: {ex.Message}");
             }
-
+            SaveChanges();
         }
         //Showing Borrowed books using LINQ
         public void ShowBorrowedBooks()
@@ -114,15 +114,15 @@ namespace Library.BL
             
             foreach (var borrow in activeBorrows)
             {
-                var member = _repository.Members.FirstOrDefault(m => m.MemberId == borrow.memberId);
-                var book = _repository.Books.FirstOrDefault(b => b.BookId == borrow.bookId);
+                var member = _repository.Members.FirstOrDefault(m => m.MemberId == borrow.MemberId);
+                var book = _repository.Books.FirstOrDefault(b => b.BookId == borrow.BookId);
 
                 if (member != null && book != null)
                 {
                     Console.WriteLine($"{member.Name,-20} {book.Title,-30} {borrow.BorrowDate:MM/dd/yyyy}");
                 }
-
             }
+            SaveChanges();
         }
     }
 }
